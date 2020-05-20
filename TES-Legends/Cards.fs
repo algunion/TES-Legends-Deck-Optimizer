@@ -133,6 +133,6 @@ type Card = {
     CardType: CardType
     CreatureType: CreatureType
     Effects: Effect list
-    Keywords: Keyword list
+    Keywords: Keyword list list
 }
 
