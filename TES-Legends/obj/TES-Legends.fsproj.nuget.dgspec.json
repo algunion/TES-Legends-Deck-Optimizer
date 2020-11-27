@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\code\\TES-Legends-Deck-Optimizer\\old\\TES-Legends\\TES-Legends.fsproj": {}
+    "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj": {}
   },
   "projects": {
-    "d:\\code\\TES-Legends-Deck-Optimizer\\old\\TES-Legends\\TES-Legends.fsproj": {
+    "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\code\\TES-Legends-Deck-Optimizer\\old\\TES-Legends\\TES-Legends.fsproj",
+        "projectUniqueName": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
         "projectName": "TES-Legends",
-        "projectPath": "d:\\code\\TES-Legends-Deck-Optimizer\\old\\TES-Legends\\TES-Legends.fsproj",
+        "projectPath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
         "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
-        "outputPath": "d:\\code\\TES-Legends-Deck-Optimizer\\old\\TES-Legends\\obj\\",
+        "outputPath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -42,7 +41,12 @@
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
-              "version": "[5.0.0-beta.*, )",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[3.3.3, )",
               "generatePathProperty": true
             }
           },
@@ -56,18 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
