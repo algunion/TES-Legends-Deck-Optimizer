@@ -8,6 +8,7 @@
     <Compile Include="Keywords.fs" />
     <Compile Include="Effects.fs" />
     <Compile Include="Cards.fs" />
+    <Compile Include="Deck.fs" />
     <Compile Include="Library.fs" />
     <Compile Include="playground.fsx" />
   </ItemGroup>

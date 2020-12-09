@@ -132,7 +132,6 @@ type HealthPower = {
     Power: int
 }
 
-
 type Card = {
     Name: string
     Description: string

@@ -6,6 +6,6 @@ type CardProvider = HtmlProvider<"https://en.uesp.net/wiki/Legends:Fiery_Imp">
 
 let imp = CardProvider.GetSample()
 
-imp.Tables.Table1
+imp.Html.Body().Elements().[0].Elements().[0]
 
-let mySacrificeDeck = "SPALyPxDnRdAblgOqNaMfOxhpPAAAWefqKdKeuoOqfrnoEfAbwcyqefLythUmZawganlhNeyqB"
+let getCardName (card: CardProvider) = card.Tables
