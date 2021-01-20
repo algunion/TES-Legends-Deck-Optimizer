@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "FSharp.Core/5.0.0": {
         "type": "package",
         "compile": {
@@ -51,18 +51,6 @@
             "locale": "zh-Hant"
           }
         }
-      },
-      "FSharp.Data/3.3.3": {
-        "type": "package",
-        "dependencies": {
-          "FSharp.Core": "4.3.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/FSharp.Data.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/FSharp.Data.dll": {}
-        }
       }
     }
   },
@@ -93,89 +81,48 @@
         "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
         "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
       ]
-    },
-    "FSharp.Data/3.3.3": {
-      "sha512": "O+fV9oPNktESFngvTzPIQUhTdQGNX0XYXToL1l7+3jE46Y7tp8Ux4FkTMzj8wa8QV07l4sY4pJ7bBppGDi3Lsw==",
-      "type": "package",
-      "path": "fsharp.data/3.3.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fsharp.data.3.3.3.nupkg.sha512",
-        "fsharp.data.nuspec",
-        "lib/net45/FSharp.Data.DesignTime.dll",
-        "lib/net45/FSharp.Data.DesignTime.pdb",
-        "lib/net45/FSharp.Data.dll",
-        "lib/net45/FSharp.Data.pdb",
-        "lib/net45/FSharp.Data.xml",
-        "lib/netstandard2.0/FSharp.Data.DesignTime.dll",
-        "lib/netstandard2.0/FSharp.Data.DesignTime.pdb",
-        "lib/netstandard2.0/FSharp.Data.dll",
-        "lib/netstandard2.0/FSharp.Data.pdb",
-        "lib/netstandard2.0/FSharp.Data.xml",
-        "linqpad-samples/GitHub.linq",
-        "linqpad-samples/Jira.linq",
-        "linqpad-samples/TypeInference.linq",
-        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.dll",
-        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.pdb",
-        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.dll",
-        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.pdb"
-      ]
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "FSharp.Core >= 5.0.0",
-      "FSharp.Data >= 3.3.3"
+    "net5.0": [
+      "FSharp.Core >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mariu\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\patri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
+      "projectUniqueName": "d:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
       "projectName": "TES-Legends",
-      "projectPath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
-      "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\obj\\",
+      "projectPath": "d:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
+      "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+      "outputPath": "d:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
             "version": "[5.0.0, )",
-            "generatePathProperty": true
-          },
-          "FSharp.Data": {
-            "target": "Package",
-            "version": "[3.3.3, )",
             "generatePathProperty": true
           }
         },
@@ -194,7 +141,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

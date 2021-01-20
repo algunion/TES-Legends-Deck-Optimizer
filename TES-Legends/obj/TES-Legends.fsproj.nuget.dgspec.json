@@ -1,52 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj": {}
+    "D:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj": {}
   },
   "projects": {
-    "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj": {
+    "D:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
+        "projectUniqueName": "D:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
         "projectName": "TES-Legends",
-        "projectPath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
-        "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\obj\\",
+        "projectPath": "D:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
               "version": "[5.0.0, )",
-              "generatePathProperty": true
-            },
-            "FSharp.Data": {
-              "target": "Package",
-              "version": "[3.3.3, )",
               "generatePathProperty": true
             }
           },
@@ -65,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

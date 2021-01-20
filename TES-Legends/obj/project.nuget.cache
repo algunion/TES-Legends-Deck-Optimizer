@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p2a0oHJVwLW0Awflk9IL4qt4AN8ydfcmTc8t6AS/NohGb2zjbZv6yPA/XZfhXJPldcCZiln/kuDp3W0yo3BTYA==",
+  "dgSpecHash": "P1OFnkLA98YqEZdlgjnIOlZM/kqlAn8SrT3By8chxUKPMQg6uLC4duKS5ImF2CkEg2apSEEZz12ZdI5bExxTWg==",
   "success": true,
-  "projectFilePath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
+  "projectFilePath": "D:\\Code\\TES-Legends-Deck-Optimizer\\TES-Legends\\TES-Legends.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mariu\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
-    "C:\\Users\\mariu\\.nuget\\packages\\fsharp.data\\3.3.3\\fsharp.data.3.3.3.nupkg.sha512"
+    "C:\\Users\\patri\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
