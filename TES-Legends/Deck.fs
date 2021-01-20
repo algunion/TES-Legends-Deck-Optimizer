@@ -1,9 +1,6 @@
 ﻿module Deck
 open Cards
-
-type DeckType = 
-    | DiscardDeck
-    | PlayDeck
+open Lanes
 
 type DeckAttr =
     | Single of CardAttributes
@@ -20,5 +17,17 @@ type Player = {
     DiscardDeck: ResizeArray<Card>
     LifePoints: int
     Magicka: int
+}
+
+type Lane = {
+    Cards: ResizeArray<Card>
+    LaneType: LaneType
+}
+
+type Board = {
+    Player1: Player
+    Player2: Player
+    LeftLane: Lane
+    RightLane: Lane
 }
 

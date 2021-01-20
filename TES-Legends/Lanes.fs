@@ -1,6 +1,6 @@
 ﻿module Lanes
 
-type Lane =
+type LaneType =
     | Dementia
     | FieldLane
     | Mania
