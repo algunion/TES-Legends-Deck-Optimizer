@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MjZiMtVzd2Of2eqnad7gXeF/m6t9kaBC/Qz13kJrsfS13p24oAcXdhdPSCQ7iksMcCH21SVfXsg8dilE8OEpGQ==",
+  "success": true,
+  "projectFilePath": "D:\\code\\TES-Legends-Deck-Optimizer\\TES-Legends-Deck-Optimizer.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mariu\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

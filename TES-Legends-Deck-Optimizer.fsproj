@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>TES_Legends_Deck_Optimizer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Lanes.fs"/>
+    <Compile Include="Keywords.fs"/>
+    <Compile Include="Effects.fs"/>
+    <Compile Include="Cards.fs"/>
+    <Compile Include="Deck.fs"/>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
