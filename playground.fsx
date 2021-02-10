@@ -67,5 +67,4 @@ let karatsuba a b = karatsubaInt (makeMult a b)
 karatsuba 51 54
 51 * 54
 
-
 makeSums (prepareNumbers 99 99)
